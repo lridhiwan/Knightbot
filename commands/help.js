@@ -7,13 +7,12 @@ async function helpCommand(sock, chatId, channelLink) {
    *🤖 ${settings.botName || 'WhatsApp Bot'}*  
    Version: *${settings.version || '1.0.0'}*
    by ${settings.botOwner || 'Unknown Owner'}
-   YT : ${ytch}
 ╚═══════════════════╝
 
 *Available Commands:*
 
 ╔═══════════════════╗
-🌐 *General Commands*:
+🌐 *General Commands for BOT 01 by L.Ridhiwan*:
 ║ ➤ .help or .menu
 ║ ➤ .tts <text>
 ║ ➤ .sticker or .s
@@ -74,9 +73,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .topmembers
 ╚═══════════════════╝
 
-${channelLink ? `🔗 *Join our Channel:* \n${channelLink}` : 'No channel link available'}
-
-@${settings.botName || 'BOT O1'} 2024 v${settings.version || '1.0.0'}
+@${settings.botName || 'BOT O1'} L.RIDHIWAN powered by Rahmoon Technologies Uganda 2024 v${settings.version || '1.0.0'}
 `;
 
     try {
