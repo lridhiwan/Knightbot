@@ -1,12 +1,12 @@
 const settings = {
   packname: 'My Sticker Pack',
-  author: 'My Bot',
-  botName: "Knight Bot",
-  botOwner: 'Professor', // Your name
-  ownerNumber: '917023951514', //Your number
+  author: 'L.Ridhiwan',
+  botName: "BOT 01",
+  botOwner: 'L.Ridhiwan', // Your name
+  ownerNumber: '256764837096', //Your number
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: "public",
-  description: "This is a bot for managing group commands and automating tasks.",
+  description: "Whatsapp bot created by L.Ridhiwan powered by L-SIX Communications.",
   version: "1.0.0",
 };
 
