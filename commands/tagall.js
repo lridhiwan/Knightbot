@@ -40,7 +40,7 @@ async function tagAllCommand(sock, chatId, senderId) {
         });
     } else {
         await sock.sendMessage(chatId, {
-            text: 'Only admins or the bot (if it is an admin) can use the .tagall command.'
+            text: 'Only admins or the bot (if it is an admin) can use the .tagall command. Type .menu or .help to view more commands.'
         });
     }
 }
