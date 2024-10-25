@@ -6,7 +6,7 @@ async function banCommand(sock, chatId, mentionedJidList) {
     
     const userToBan = mentionedJidList[0]; // Only ban the first mentioned user
     await sock.groupParticipantsUpdate(chatId, [userToBan], 'remove'); // Remove the user from the group
-    await sock.sendMessage(chatId, { text: `User @${userToBan.split('@')[0]} has been banned.`, mentions: [userToBan] });
+    await sock.sendMessage(chatId, { text: `User @${userToBan.split('@')[0]} has been banned ..powered by L.Ridhiwan software..`, mentions: [userToBan] });
 }
 
 module.exports = banCommand;
